@@ -1,10 +1,12 @@
-import React from 'react';
+ 
+import HeaderTop from '../HeaderTop/HeaderTop';
 
 const Navigation = () => {
      return (
-          <div>
-               navagtion
-          </div>
+          <section>
+               <HeaderTop></HeaderTop>
+                
+          </section>
      );
 };
 
