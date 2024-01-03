@@ -3,13 +3,14 @@ import HeaderTop from '../HeaderTop/HeaderTop';
 // import { FaSistrix } from "react-icons/fa";
 // import { FaRegUser } from "react-icons/fa";
 import { FaHeart,FaCloud, FaRegUser,FaSistrix ,FaCartPlus } from "react-icons/fa";
+import logo from '../../../assets/Alzaf-2Logo.jpg';
 // import { FaCloud } from "react-icons/fa";
 const Navigation = () => {
      return (
           <section>
                <HeaderTop></HeaderTop>
                 <nav className="w-[1920px] h-[70px] bg-[#fff] flex items-center">
-                    <img src="../../../assets/Alzaf-Logo.jpg" className='w-[129px] h-[37px] ms-[350px]' alt="" />
+                    <img src={logo} className='w-[129px] h-[37px] ms-[350px]' alt="" />
                     <div className='w-[704px] h-[44px] bg-[#EFF0F5] text-[#707070] rounded-xl text-[14px] font-[400] leading-[130%] ml-[28px] flex justify-between items-center p-[13px]'>
                          search
                          <span className='w-[47px] h-[44px] bg-[#F97316] rounded-[10px] ml-[542px]'><FaSistrix className='w-[17px] h-[17px] mx-auto mt-[15px]' /></span>
