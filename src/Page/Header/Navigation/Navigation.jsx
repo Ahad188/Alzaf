@@ -16,17 +16,17 @@ const Navigation = () => {
                     </div>
                     <div className='flex relative items-center'>
                          <div className='w-[32px] h-[32px] bg-[#F5F5F5] ml-[25px]'>
-                              <span className='mx-auto absolute top-[12px] left-[40px]'>
+                              <span className='mx-auto absolute top-[12px] left-[32px]'>
                                    <FaRegUser/>
                               </span>
                          </div>
-                          <div className='w-[32px] h-[32px] bg-[#F5F5F5] ml-[12px]'>
-                              <span className='mx-auto absolute top-[12px] left-[82px]'>
+                          <div className='w-[32px] h-[32px] bg-[#F5F5F5] ml-[12px] relative'>
+                              <span className='mx-auto absolute top-[10px] left-[10px]'>
                                    <FaHeart/>
                               </span>
                           </div>
-                          <div className='w-[32px] h-[32px] bg-[#F5F5F5] ml-3'>
-                          <span className='mx-auto absolute top-[12px] left-[128px]'>
+                          <div className='w-[32px] h-[32px] bg-[#F5F5F5] ml-3 relative'>
+                          <span className='mx-auto absolute top-[10px] left-[8px]'>
                                     <FaCartPlus></FaCartPlus>
                               </span>
                           </div> 

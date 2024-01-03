@@ -1,10 +1,12 @@
-import React from 'react';
+import Banner from "./Banner/Banner";
+
+ 
 
 const Home = () => {
      return (
-          <div>
-               this is e home page
-          </div>
+          <section className="w-[1920px]">
+               <Banner></Banner>
+          </section>
      );
 };
 
