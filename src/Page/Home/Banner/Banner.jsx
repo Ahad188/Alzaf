@@ -8,10 +8,10 @@ import iconR from '../../../assets/img/Expand_right.jpg'
 const Banner = () => {
      return (
           <section className=" ">
-               <div className="relative">
-               <img src={banner} alt="" />
+               <div className="">
+               <img src={banner} className="relative" alt="" />
                </div>
-               <div className="w-[230px] h-[381px] border border-gray-500 ml-[350px] absolute top-[14.2%] bg-white">
+               <div className="w-[230px] h-[381px] border border-gray-500 ml-[350px] absolute top-[13.8%] bg-white">
                     <ul>
                          <li className="text-[12px] font-[400] text-[#2E2E2E] ms-2 p-[4px]">Womens’ & Girls’ Fashion</li>
                          <li className="text-[12px] font-[400] text-[#2E2E2E] ms-2 p-[4px]">Health & Beauty</li>
